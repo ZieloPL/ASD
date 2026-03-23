@@ -56,7 +56,7 @@ def zadanie_1():
         print(f"  x[{i}] = {wezly_x[i]}, f(x[{i}]) = {wartosci_y[i]}")
 
     print(f"\nPunkt obliczeniowy x: {punkt}")
-    print(f"Współczynniki wielomianu Newtona (b_k): {[round(b, 4) for b in wspolczynniki_bk]}")
+    print(f"Współczynniki wielomianu Newtona (bk): {[round(b, 4) for b in wspolczynniki_bk]}")
     print(f"Wartość wielomianu (y) Newtona w punkcie {punkt}: {wynik}\n")
 
 
